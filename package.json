@@ -1,0 +1,8 @@
+{
+  "name": "frontend-template-type1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:funnythingz/frontend-template-type1.git",
+  "author": "funnythingz <funnythingz69+github@gmail.com>",
+  "license": "MIT"
+}
