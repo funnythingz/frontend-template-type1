@@ -6,6 +6,6 @@
   "author": "funnythingz <funnythingz69+github@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "webpack": ""
+    "webpack": "^2.3.2"
   }
 }
