@@ -9,15 +9,14 @@ module.exports = {
     output: {
         filename: 'app.js',
         path: path.resolve(__dirname, 'dist'),
-        publicPath: path.resolve(__dirname, 'assets'),
         sourceMapFilename: '[name].map'
     },
     plugins: [
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false,
-                drop_console: false,
-            }
-        }),
+        //new webpack.optimize.UglifyJsPlugin({
+        //    compress: {
+        //        warnings: false,
+        //        drop_console: false,
+        //    }
+        //}),
     ]
 };
