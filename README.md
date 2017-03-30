@@ -9,10 +9,16 @@ $ yarn install
 
 ## command
 
-build
+build env dev
 
 ```
 $ yarn build:dev
+```
+
+build env prod
+
+```
+$ yarn build:prod
 ```
 
 serve
