@@ -11,12 +11,6 @@ module.exports = function() {
             filename: '[name].js'
         },
         plugins: [
-            new webpack.optimize.UglifyJsPlugin({
-                compress: {
-                    warnings: false,
-                    drop_console: false
-                }
-            })
         ]
     };
 }
