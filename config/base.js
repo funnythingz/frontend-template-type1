@@ -8,7 +8,7 @@ module.exports = function() {
         },
         output: {
             path: path.resolve(__dirname, '../dist'),
-            filename: '[name].js'
+            filename: '[name].dev.js'
         },
         plugins: [
         ]
