@@ -7,8 +7,7 @@ module.exports = function() {
             'app': path.resolve(__dirname, '../src', 'app.js')
         },
         output: {
-            path: path.resolve(__dirname, '../dist'),
-            filename: '[name].dev.js'
+            path: path.resolve(__dirname, '../dist')
         },
         plugins: [
         ]

@@ -6,6 +6,7 @@ module.exports = function(env) {
     return merge(baseConfig(), {
         devtool: 'cheap-eval-source-map',
         output: {
+            filename: '[name].dev.js',
             sourceMapFilename: '[name].map'
         },
         devServer: {
