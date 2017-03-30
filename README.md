@@ -12,5 +12,11 @@ $ yarn install
 build
 
 ```
-$ npm run build
+$ yarn build:dev
+```
+
+serve
+
+```
+$ yarn start
 ```
