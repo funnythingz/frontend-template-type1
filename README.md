@@ -1,5 +1,7 @@
 # frontend-template-type1
 
+use yarn and webpack
+
 ## setup
 
 ```
