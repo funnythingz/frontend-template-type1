@@ -3,6 +3,7 @@ var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var EncodingPlugin = require('webpack-encoding-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CleanWebpackPlugin = require('clean-webpack-plugin');
 
 var extractSASS = new ExtractTextPlugin('[name].css');
 
@@ -32,6 +33,10 @@ module.exports = function() {
             new HtmlWebpackPlugin({
                 template: 'assets/template.html',
                 filename: 'app.html'
+            }),
+            new CleanWebpackPlugin(['dist'], {
+                verbose: true,
+                dry: false
             })
         ]
     };
