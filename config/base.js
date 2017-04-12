@@ -1,11 +1,10 @@
-var webpack = require('webpack');
-var path = require('path');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var EncodingPlugin = require('webpack-encoding-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var CleanWebpackPlugin = require('clean-webpack-plugin');
-
-var extractSASS = new ExtractTextPlugin('[name].css');
+const webpack = require('webpack');
+const path = require('path');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const EncodingPlugin = require('webpack-encoding-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const extractSASS = new ExtractTextPlugin('[name].css');
 
 module.exports = function() {
     return {
